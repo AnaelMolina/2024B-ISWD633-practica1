@@ -24,10 +24,11 @@ docker pull <nombre imagen>:<tag>
 ```
 
 Descargar la imagen **hello-world**
+
 ![Imagen](img/hello-world.png)
 
 **¿Qué es nginx**
-# COMPLETAR 
+Es un servidor web potente y versátil, muy utilizado en la industria por su rendimiento y capacidad para manejar grandes volúmenes de tráfico. Se adapta bien a una variedad de situaciones, desde servir sitios web simples hasta manejar arquitecturas complejas de microservicios.
 
 Descargar la imagen  **nginx** en la versión **alpine**
 # COMPLETAR
