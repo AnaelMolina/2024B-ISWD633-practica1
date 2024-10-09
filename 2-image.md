@@ -39,7 +39,7 @@ Descargar la imagen  **nginx** en la versión **alpine**
 docker images
 ```
 
-![Imagen](img/captura123.PNG)
+![Imagen](img/captura123.png)
 
 
 
