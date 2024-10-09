@@ -4,7 +4,7 @@ Es un archivo único que contiene todos los programas, librerías, dependencias 
 
 
 ## ¿Cuál es la relación entre una imagen y un contenedor? 
-# COMPLETAR 
+La imagen es el recurso estático que se utiliza para crear un contenedor. Cuando se corre un contenedor, este es una copia de la imagen en ejecución, donde se puede realizar modificaciones o ejecutar procesos.
 
 ![Imagen y contenedores](img/imagenContenedores.JPG)
 ## Comandos para imágenes
