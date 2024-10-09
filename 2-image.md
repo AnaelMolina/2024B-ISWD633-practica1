@@ -186,6 +186,13 @@ docker rmi <nombre imagen>:<tag>
 ```
 
 Eliminar la imagen hello-world 
+
+```
+PS C:\Users\PC> docker rmi -f hello-world:latest
+>>
+Untagged: hello-world:latest
+```
+
 # COMPLETAR
 
 -f: Es la opción para forzar la eliminación de la imagen incluso si hay contenedores en ejecución que utilizan esa imagen.
