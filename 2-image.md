@@ -24,6 +24,11 @@ docker pull <nombre imagen>:<tag>
 ```
 
 Descargar la imagen **hello-world**
+* C:\Users\PC>docker pull docker:27.3.1-cli
+27.3.1-cli: Pulling from library/docker
+Digest: sha256:6806d2764925d3b483f9732422b95321781765aeece274b4e60063d02e13efd6
+Status: Downloaded newer image for docker:27.3.1-cli
+docker.io/library/docker:27.3.1-cli
 
 
 
