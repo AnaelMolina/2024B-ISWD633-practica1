@@ -53,6 +53,20 @@ For more examples and ideas, visit:
 Es un servidor web potente y versátil, muy utilizado en la industria por su rendimiento y capacidad para manejar grandes volúmenes de tráfico. Se adapta bien a una variedad de situaciones, desde servir sitios web simples hasta manejar arquitecturas complejas de microservicios.
 
 Descargar la imagen  **nginx** en la versión **alpine**
+
+* C:\Users\PC>docker pull nginx:1.27.2-alpine
+1.27.2-alpine: Pulling from library/nginx
+d1171b13e412: Download complete
+472934715761: Download complete
+fd072e74e282: Download complete
+f99ac9ba1313: Download complete
+45eb579d59b2: Download complete
+379754eea6a7: Download complete
+596d53a7de88: Download complete
+Digest: sha256:2140dad235c130ac861018a4e13a6bc8aea3a35f3a40e20c1b060d51a7efd250
+Status: Downloaded newer image for nginx:1.27.2-alpine
+docker.io/library/nginx:1.27.2-alpine
+
 # COMPLETAR
 
 ### Listar imágenes
@@ -62,7 +76,6 @@ docker images
 ```
 
 ![Imagen](img/captura123.png)
-
 
 
 **Identificadores**
