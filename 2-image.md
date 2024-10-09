@@ -91,6 +91,81 @@ docker inspect <nombre imagen>:<tag>
 ```
 
 Inspeccionar la imagen hello-world 
+```
+C:\Users\PC>docker inspect docker:27.3.1-cli
+[
+    {
+        "Id": "sha256:6806d2764925d3b483f9732422b95321781765aeece274b4e60063d02e13efd6",
+        "RepoTags": [
+            "docker:27.3.1-cli"
+        ],
+        "RepoDigests": [
+            "docker@sha256:6806d2764925d3b483f9732422b95321781765aeece274b4e60063d02e13efd6"
+        ],
+        "Parent": "",
+        "Comment": "buildkit.dockerfile.v0",
+        "Created": "2024-09-20T18:21:55Z",
+        "DockerVersion": "27.2.0",
+        "Author": "",
+        "Config": {
+            "Hostname": "",
+            "Domainname": "",
+            "User": "",
+            "AttachStdin": false,
+            "AttachStdout": false,
+            "AttachStderr": false,
+            "Tty": false,
+            "OpenStdin": false,
+            "StdinOnce": false,
+            "Env": [
+                "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+                "DOCKER_VERSION=27.3.1",
+                "DOCKER_BUILDX_VERSION=0.17.1",
+                "DOCKER_COMPOSE_VERSION=2.29.7",
+                "DOCKER_TLS_CERTDIR=/certs"
+            ],
+            "Cmd": [
+                "sh"
+            ],
+            "ArgsEscaped": true,
+            "Image": "",
+            "Volumes": null,
+            "WorkingDir": "",
+            "Entrypoint": [
+                "docker-entrypoint.sh"
+            ],
+            "OnBuild": null,
+            "Labels": null
+        },
+        "Architecture": "amd64",
+        "Os": "linux",
+        "Size": 67554191,
+        "GraphDriver": {
+            "Data": null,
+            "Name": "overlayfs"
+        },
+        "RootFS": {
+            "Type": "layers",
+            "Layers": [
+                "sha256:63ca1fbb43ae5034640e5e6cb3e083e05c290072c5366fcaa9d62435a4cced85",
+                "sha256:46367e3dcdb5851251019becf28cb85565132affcbd126c60ff5fbfd024ba9b6",
+                "sha256:5f70bf18a086007016e948b04aed3b82103a36bea41755b6cddfaf10ace3c6ef",
+                "sha256:08ef13d695c4537d11fe4b352ddcc1195d9fa82cddea3baf111faf8cba37f615",
+                "sha256:ef39a7a91695846ffe938e5bd4ee46467259ade30ec90cabc7f89a80e4903a10",
+                "sha256:beaddcfc85f4dbb58fd94531d02b614329d0cfb07f28b76b9802a2be90e44696",
+                "sha256:e5b9f8b77d2720eadb515b7adc457add3b0e2f94814b2e2c4a5891a14c322ff2",
+                "sha256:5b6a17a5d3a79d3f6f18ae74c3ae7f36d8b8ebbea8a9365e0cd55a7d996a453f",
+                "sha256:52ab6e31e0005d9977ac08700f4b14dfb694148361e5d07792f03e91b3462886",
+                "sha256:bccd61a956869c7b1d00d4177cbec4e369ea21b20445dd57a8f5591b977acfd9"
+            ]
+        },
+        "Metadata": {
+            "LastTagTime": "2024-10-09T01:03:01.406040378Z"
+        }
+    }
+]
+```
+
 # COMPLETAR
 
 **¿Con qué algoritmo se está generando el ID de la imagen**
