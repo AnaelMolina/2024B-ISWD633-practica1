@@ -6,16 +6,17 @@ Una vez que, nos adentramos en el tema tenia solamente la idea muy superficial d
 # DESPUES DE LA PRÁCTICA
 ## Aprendizaje 
 Aprendí los comandos mencionados en esta practica tales como:
-1 docker pull <nombre imagen> 
-2 docker pull <nombre imagen>:<tag>
-3 docker inspect <nombre imagen>
-4 docker inspect <nombre imagen>:<tag>
-5 docker rmi <nombre imagen>:<tag>
-6 docker create --name <nombre contenedor> <nombre imagen>:<tag>
-7 docker ps -a
-8 docker run --name <nombre contenedor> <nombre imagen>:<tag>
-9 docker rm <nombre contenedor>
-10 docker run -d --name <nombre contenedor> -p <puerto host>:<puerto contenedor> <nombre imagen>:<tag>
+1.  docker pull <nombre imagen> 
+2.  docker pull <nombre imagen>:<tag>
+3.  docker inspect <nombre imagen>
+4.  docker inspect <nombre imagen>:<tag>
+5.  docker rmi <nombre imagen>:<tag>
+6.  docker create --name <nombre contenedor> <nombre imagen>:<tag>
+7.  docker ps -a
+8.  docker run --name <nombre contenedor> <nombre imagen>:<tag>
+9.  docker rm <nombre contenedor>
+10. docker run -d --name <nombre contenedor> -p <puerto host>:<puerto contenedor> <nombre imagen>:<tag>
+
 Aprendi a mapear correctamente los puertos entre host y el contenedor desde minavegador. Comprendí como utilizar las 
 herramientas de Docker para gestionar contenedores y como RabbitMQ opera dentro de un contenedor con su panel de 
 administracion web accesible a traves de un puerto especifico.
