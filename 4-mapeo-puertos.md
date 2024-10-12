@@ -13,6 +13,19 @@ docker run -d --name <nombre contenedor> -p <puerto host>:<puerto contenedor> <n
 Crear un contenedor a partir de la imagen nginx version alpine con el mapeo de puertos del ejemplo gráfico, host 3000 y contenedor 80
 # COMPLETAR
 
+```
+Windows PowerShell
+Windows PowerShell---------------------XXWindows PowerShell------------------------XXWindows PowerShell-----------------------------XXWindows PowerShell------------------------------------XXWindows PowerShell-------XX---------------------------------------XXWindows PowerShell------------------XXWindows PowerShell-------------------------------XXCopyright (C) Microsoftservados.
+servados.
+
+---------------------------------------XXInstale la versión más reciente de PowerShell para obtener nuevas características y mejoras. https://aka.ms/PSWindows
+
+PS C:\Users\PC>docker run -d --name mi_contenedor_nginx -p 3000:80 nginx:alpine
+docker: Error response from daemon: Conflict. The container name "/mi_contenedor_nginx" is already in use by container "725d3a379c909f401c3aa9b5aaeff7abbd5e0ba037b458fe752c922937a81bb5". You have to remove (or rename) that container to be able to reuse that name.   
+See 'docker run --help'.
+PS C:\Users\PC> docker ps             CONTAINER ID   IMAGE          COMMAND                  CREATED         STATUS         PORTS                  NAMES
+725d3a379c90   nginx:alpine   "/docker-entrypoint.…"   2 minutes ago   Up 2 minutes   0.0.0.0:3000->80/tcp   mi_contenedor_nginx
+```
 # COLOCAR UNA CAPTURA DE PANTALLA  DEL ACCESO http://localhost:3000
 
 ### Para mapear más de un puerto
