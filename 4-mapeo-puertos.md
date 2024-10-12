@@ -37,4 +37,18 @@ docker run -d --name <nombre contenedor> -p <puerto host 01>:<puerto contenedor 
 
 Crear un contenedor a partir de la imagen rabbitmq version management-alpine, para este mapeo de puertos usar en el host los mismos puertos del contenedor.
 # COMPLETAR
-
+```
+PS C:\Users\PC> docker run -d --name mi_rabbitmq -p 5672:5672 -p 15672:15672 rabbitmq:3-management-alpine
+Unable to find image 'rabbitmq:3-management-alpine' locally
+3-management-alpine: Pulling from library/rabbitmq
+67b3d380c81e: Pulling fs layer        
+b8234549f281: Pulling fs layer        
+88f38d486354: Pulling fs layer        
+67b3d380c81e: Download complete       8MBB51cdb19c: Download complete       8eed8156f1b8: Download complete       58MB9fe2f10d: Download complete       
+5fb3f867a591: Download complete       
+e531f06be22c: Download complete       
+Digest: sha256:dec9f8e86978cff263a2a65013b9a9f4b1f938c0a2576633cb783332573bcc69
+Status: Downloaded newer image for rabbitmq:3-management-alpine
+056b94f3dd3208786ae052ba8ecd06673ff14d3a84c709a9af367be96f6b1841
+PS C:\Users\PC> 
+```
