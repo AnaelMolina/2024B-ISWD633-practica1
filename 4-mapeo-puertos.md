@@ -26,7 +26,7 @@ See 'docker run --help'.
 PS C:\Users\PC> docker ps             CONTAINER ID   IMAGE          COMMAND                  CREATED         STATUS         PORTS                  NAMES
 725d3a379c90   nginx:alpine   "/docker-entrypoint.…"   2 minutes ago   Up 2 minutes   0.0.0.0:3000->80/tcp   mi_contenedor_nginx
 ```
-# COLOCAR UNA CAPTURA DE PANTALLA  DEL ACCESO http://localhost:3000
+![mapeo](img/captura124.PNG)
 
 ### Para mapear más de un puerto
 
